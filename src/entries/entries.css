@@ -1,0 +1,24 @@
+.entriesContainer{
+	margin-left: 10px;
+	flex-grow: 1;
+}
+
+.eventTitle{
+	display: flex;
+	justify-content: space-between;
+}
+
+.event{
+	padding: 5px 10px 10px 10px;
+	border-top: 2px dashed #c6bcb6;
+	box-shadow: inset 0 1px 0 0 #c6bcb6, 0 -1px 0 0 #c6bcb6, 0px 2px 0 0 #221710;
+	margin-bottom: 5px;
+}
+
+.event:nth-child(odd){
+	background-color: #3A2F28;
+}
+
+.event:nth-child(even){
+	background-color: #322720;
+}

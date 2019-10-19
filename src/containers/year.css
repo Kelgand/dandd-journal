@@ -1,0 +1,45 @@
+.yearContainer{
+	display: flex;
+	border-top: 1px solid #120700;
+	border-bottom: 1px solid #120700;
+}
+
+.year{
+	padding: 10px 5px;
+	border-left: 1px solid #120700;
+}
+
+.year:hover{
+	background-color: #c6bcb6;
+	color: black;
+}
+
+.months{
+	display: flex;
+	flex-direction: column;
+}
+
+.month{
+	box-sizing: border-box;
+	width: 90px;
+	padding: 5px 10px;
+	
+	background-color: #96897f;
+	color: black;
+	border-right: black;
+	border-bottom: 1px solid #c6bcb6;
+	z-index: 1;
+	cursor: default;
+}
+
+.month:hover{
+	background-color: #c6bcb6;
+}
+
+.month:first-child{
+	border-top: black;
+}
+
+.month:last-child{
+	border-bottom: black;
+}

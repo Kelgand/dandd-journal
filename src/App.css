@@ -1,0 +1,25 @@
+body{
+	background-color: #e0e2e4;
+	margin: 0px;
+	color: #e0e2e4;
+}
+
+#header{
+	width: 1100;
+	border-bottom: 2px solid #120700;
+	padding-left: 100px;
+	margin-bottom: 10px;
+	font-size: 64px;
+}
+
+.mainContainer{
+	width: 1000px;
+	min-height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #423730;
+}
+
+.content{
+	display: flex;
+}
